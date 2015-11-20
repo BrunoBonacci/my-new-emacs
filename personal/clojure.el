@@ -290,4 +290,6 @@ White space here is any of: space, tab, emacs newline (line feed, ASCII 10)."
       (delete-region (car bounds) (cdr bounds))
       (insert (code-box text)))))
 
+(prelude-require-package 'key-chord)
+(require 'key-chord)
 (key-chord-define-global "CB" 'my-comment-box)

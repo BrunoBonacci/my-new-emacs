@@ -142,6 +142,7 @@
 ;; Getting rid of annoying key chords
 ;;
 (prelude-require-package 'key-chord)
+(require 'key-chord)
 ;; disabling lowercase chords
 (key-chord-define-global "jj" nil)
 (key-chord-define-global "jl" nil)
